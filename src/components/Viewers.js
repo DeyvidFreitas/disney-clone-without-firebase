@@ -3,8 +3,15 @@ import styled from 'styled-components'
 
 function Viewers() {
   return (
-    <div>Viewers</div>
+    <Container>
+        Viewers
+    </Container>
   )
 }
 
 export default Viewers
+
+const Container = styled.div`
+    maring-top: 30px;
+    display: grid;
+`
